@@ -16,13 +16,13 @@ export default function Contact() {
               <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-xl">
                 <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-indigo-50 text-indigo-700">✉️</div>
                 <p className="text-sm font-semibold text-slate-900">Email Me</p>
-                <p className="mt-2 text-sm text-slate-600">hello@juniordev.io</p>
+                <p className="mt-2 text-sm text-slate-600">rayyan140108@gmail.com</p>
                 <p className="mt-1 text-xs uppercase tracking-[0.2em] text-indigo-600">Primary Communication</p>
               </div>
               <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-xl">
                 <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-indigo-50 text-indigo-700">📍</div>
                 <p className="text-sm font-semibold text-slate-900">Location</p>
-                <p className="mt-2 text-sm text-slate-600">San Francisco, CA (Open to Remote)</p>
+                <p className="mt-2 text-sm text-slate-600">Pamekasan, Jawa Timur (Open to Remote)</p>
                 <p className="mt-1 text-xs uppercase tracking-[0.2em] text-indigo-600">Based in</p>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Contact() {
             </form>
 
             <div className="absolute -right-8 bottom-8 hidden w-72 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-xl md:block">
-              <p className="text-sm font-semibold text-slate-900">SF Bay Area</p>
+              <p className="text-sm font-semibold text-slate-900">Universitas Madura</p>
               <p className="mt-3 text-sm text-slate-600">Currently based here, but open to relocation and fully remote positions worldwide.</p>
             </div>
           </div>
