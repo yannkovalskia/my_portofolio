@@ -1,5 +1,5 @@
 export default function TechStack() {
-  const stacks = ['JavaScript', 'Python', 'React', 'Git', 'Tailwind', 'Node.js', 'TypeScript', 'PostgreSQL', 'Docker', 'AWS'];
+  const stacks = ['JavaScript', 'Python', 'React', 'Git', 'Tailwind', 'Node.js', 'TypeScript', 'PostgreSQL', 'PHP'];
 
   return (
     <>
@@ -34,14 +34,14 @@ export default function TechStack() {
               <div className="grid h-12 w-12 place-items-center rounded-2xl bg-indigo-50 text-indigo-700">✉️</div>
               <div>
                 <p className="text-sm font-semibold text-slate-900">Email Me</p>
-                <p className="mt-1 text-sm text-slate-600">hello@juniordev.com</p>
+                <p className="mt-1 text-sm text-slate-600">rayyan140108@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <div className="grid h-12 w-12 place-items-center rounded-2xl bg-indigo-50 text-indigo-700">📍</div>
               <div>
                 <p className="text-sm font-semibold text-slate-900">Location</p>
-                <p className="mt-1 text-sm text-slate-600">Jakarta, Indonesia</p>
+                <p className="mt-1 text-sm text-slate-600">Pamekasan, Indonesia</p>
               </div>
             </div>
           </div>
