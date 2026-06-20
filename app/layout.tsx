@@ -31,7 +31,7 @@ function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white shadow-sm">
       <nav className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold text-indigo-600">
-          DevPortfolio
+          MyPortofolio
         </Link>
         <div className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
