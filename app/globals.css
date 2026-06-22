@@ -9,3 +9,110 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+
+/* ─── Smooth scrolling ─────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Page transition ──────────────────────────────── */
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition {
+  opacity: 0;
+  transform: translateY(18px);
+}
+
+.page-transition.page-entered {
+  animation: page-enter 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ─── Scroll-driven: fade-up on enter viewport ─────── */
+@keyframes fade-up-in {
+  from {
+    opacity: 0;
+    transform: translateY(36px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-left-in {
+  from {
+    opacity: 0;
+    transform: translateX(36px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-right-in {
+  from {
+    opacity: 0;
+    transform: translateX(-36px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* CSS scroll-driven animations (Chrome 115+, Edge 115+) */
+@supports (animation-timeline: view()) {
+  .scroll-fade-up {
+    animation: fade-up-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+
+  .scroll-fade-left {
+    animation: fade-left-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+
+  .scroll-fade-right {
+    animation: fade-right-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+
+  .scroll-scale-in {
+    animation: scale-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 30%;
+  }
+}
+
+/* ─── Stagger helper for grids (JS-controlled) ─────── */
+.stagger-1 { --stagger-delay: 0ms; }
+.stagger-2 { --stagger-delay: 80ms; }
+.stagger-3 { --stagger-delay: 160ms; }
+.stagger-4 { --stagger-delay: 240ms; }
+.stagger-5 { --stagger-delay: 320ms; }
+.stagger-6 { --stagger-delay: 400ms; }
+
