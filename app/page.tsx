@@ -20,9 +20,7 @@ export default function Home() {
 
         <ScrollReveal direction="up" delay={160}>
           <p className="mx-auto mt-5 max-w-md text-sm leading-7 text-slate-500">
-            Saya Junior Programmer yang bersemangat membangun solusi digital yang
-            efisien, skalabel, dan berpusat pada pengguna. Menjelajahi masa depan
-            melalui baris kode.
+            Saya Mahasiswa Informatika Semester 4 yang sedang aktif mencari pengalaman baru, dan juga saya merupakan member grup fesnuk Ingin menjadi programmer handal namun enggan ngoding sejak 2023.
           </p>
         </ScrollReveal>
 
@@ -83,7 +81,7 @@ export default function Home() {
             <div>
               <h2 className="text-3xl font-extrabold text-slate-900">Featured Work</h2>
               <p className="mt-1.5 text-sm text-slate-500">
-                Seleksi project terbaik yang menunjukkan kemampuan teknis saya.
+                Project terbaik yang pernah saya buat sejauh ini.
               </p>
             </div>
             <a
