@@ -8,8 +8,12 @@ export default function About() {
       <section className="pt-14 pb-10 text-center">
         <ScrollReveal direction="up" delay={0}>
           {/* Profile avatar */}
-          <div className="mx-auto mb-6 h-16 w-16 overflow-hidden rounded-2xl border-2 border-slate-200 bg-slate-200 shadow-md">
-            <div className="h-full w-full bg-gradient-to-br from-slate-600 to-slate-800" />
+          <div className="mx-auto mb-6 h-20 w-20 overflow-hidden rounded-2xl border-2 border-slate-200 shadow-md">
+            <img
+              src="/profile.jpg"
+              alt="Profile photo"
+              className="h-full w-full object-cover object-top"
+            />
           </div>
           <h1 className="text-4xl font-extrabold tracking-tight text-slate-900">
             Building digital{" "}
