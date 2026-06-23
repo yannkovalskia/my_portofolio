@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScrollReveal from "@/app/components/ScrollReveal";
 
 export default function About() {
@@ -9,9 +10,11 @@ export default function About() {
         <ScrollReveal direction="up" delay={0}>
           {/* Profile avatar */}
           <div className="mx-auto mb-6 h-20 w-20 overflow-hidden rounded-2xl border-2 border-slate-200 shadow-md">
-            <img
+            <Image
               src="/profile.jpg"
               alt="Profile photo"
+              width={80}
+              height={80}
               className="h-full w-full object-cover object-top"
             />
           </div>
@@ -188,7 +191,7 @@ export default function About() {
                 { icon: "☕", label: "Kopi Manual Brew" },
                 { icon: "🚲", label: "Bersepeda Sore" },
                 { icon: "📷", label: "Street Photo" },
-              ].map((hobby, i) => (
+              ].map((hobby) => (
                 <div
                   key={hobby.label}
                   className="flex flex-col items-center gap-2 rounded-2xl border border-slate-200 bg-white p-4 text-center shadow-sm"
