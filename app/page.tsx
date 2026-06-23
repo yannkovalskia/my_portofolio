@@ -14,7 +14,7 @@ export default function Home() {
         <ScrollReveal direction="up" delay={80}>
           <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 md:text-5xl">
             If it works,{" "}
-            <span className="text-indigo-600">don't touch it</span>.
+            <span className="text-indigo-600">don&apos;t touch it</span>.
           </h1>
         </ScrollReveal>
 
