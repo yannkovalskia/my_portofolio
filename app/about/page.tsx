@@ -24,11 +24,9 @@ export default function About() {
             with code.
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-500">
-            Saya adalah seorang pengembang perangkat lunak yang berfokus pada
-            pembangunan antarmuka web yang berperforma tinggi dan berpusat pada
-            pengguna. Perjalanan saya dimulai dari rasa penasaran tentang bagaimana
-            Internet bekerja, hingga kini menjadi obsesi profesional untuk menulis kode
-            yang bersih dan skalabel.
+            Saya adalah Mahasiswa Informatika semester 4 yang sedang aktif mencari pengalaman sebagai seorang software engineer
+            dan data analyst yang berfokus pada membangun website yang dinamis dan modern, Tech stack utama saya saat ini adalah
+            PHP, Python, Next.JS, JavaScript, MySQL, C++ dan Matlab.
           </p>
         </ScrollReveal>
       </section>
