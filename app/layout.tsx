@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 function Header() {
   const navItems = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
+    { href: "/about", label: "About Me" },
     { href: "/project", label: "Projects" },
     { href: "/tech_stack", label: "Tech Stack" },
     { href: "/contact", label: "Contact" },
