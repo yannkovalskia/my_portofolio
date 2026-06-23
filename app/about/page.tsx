@@ -35,7 +35,7 @@ export default function About() {
       <section className="py-10 border-t border-slate-100">
         <ScrollReveal direction="up" delay={0}>
           <h2 className="flex items-center gap-2 text-xl font-bold text-indigo-600">
-            <span>📚</span> Perjalanan Belajar
+            <span></span>Pengalaman
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
             Semuanya berawal dari baris kode &quot;Hello World&quot; yang muncul di terminal lima
