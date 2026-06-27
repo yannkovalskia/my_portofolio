@@ -38,11 +38,8 @@ export default function About() {
             <span></span>Pengalaman
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
-            Semuanya berawal dari baris kode &quot;Hello World&quot; yang muncul di terminal lima
-            tahun lalu. Dari sana, saya mulai mendalami dasar-dasar logika pemrograman
-            menggunakan Python sebelum akhirnya jatuh cinta dengan ekosistem JavaScript.
-            Saya percaya bahwa belajar bukan tentang seberapa banyak bahasa yang dikuasai,
-            melainkan seberapa dalam pemahaman kita terhadap penyelesaian masalah secara fundamental.
+            I have no idea what i'm doing, but i'll do my
+            i miss my <span className="font-mono">"print("hello, world)"</span> era.
           </p>
         </ScrollReveal>
       </section>
