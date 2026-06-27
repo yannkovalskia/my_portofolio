@@ -54,12 +54,10 @@ export default function About() {
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
             Fokus utama saya saat ini adalah{" "}
-            <strong className="font-semibold text-slate-800">Web Development</strong>{" "}
-            dengan penekanan pada performa front-end dan arsitektur sistem yang modular.
-            Saya sangat menikmati tantangan dalam mengoptimalkan Core Web Vitals dan
-            membangun komponen UI yang dapat digunakan kembali dengan aksesibilitas tinggi.
-            Saat ini, saya sedang mengeksplorasi integrasi WebGL untuk menciptakan pengalaman
-            visual yang lebih imersif di web.
+            <strong className="font-semibold text-slate-800">Web Development & Data Analyst</strong>{" "}
+            dimana saya berencana untuk memilih peminatan Business Intelligence (BI) pada studi saya.
+            Akan tetapi tidak menutup kemungkinan bagi saya untuk terus mengeksplorasi skill lain sampai
+            saya benar-benar tahu minat dan bakat utama saya di bidang ini.
           </p>
           <div className="mt-5 flex flex-wrap gap-2">
             {["React & Next.js", "TailwindCSS", "TypeScript", "Node.js", "UI/UX Design"].map(
