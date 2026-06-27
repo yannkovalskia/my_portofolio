@@ -26,7 +26,7 @@ export default function About() {
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-500">
             Saya adalah Mahasiswa Informatika semester 4 yang sedang aktif mencari pengalaman sebagai seorang software engineer
             dan data analyst yang berfokus pada membangun website yang dinamis dan modern, Tech stack utama saya saat ini adalah
-            PHP, Python, Next.JS, JavaScript, MySQL, C++, html/css, matlab.
+            PHP, Python, Next.JS, JavaScript, MySQL, C++, HTML/CSS, Matlab.
           </p>
         </ScrollReveal>
       </section>
@@ -111,7 +111,7 @@ export default function About() {
                 <span className="h-3 w-3 rounded-full bg-green-400" />
               </div>
               <pre className="font-mono text-xs leading-6 text-slate-700 whitespace-pre-wrap">
-{`const status = {
+                {`const status = {
   lookingFor:
     "opportunities",
   availability: "Full-
@@ -138,7 +138,7 @@ export default function About() {
               <li className="flex gap-4">
                 <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"/>
+                    <polyline points="20 6 9 17 4 12" />
                   </svg>
                 </div>
                 <div>
@@ -151,7 +151,7 @@ export default function About() {
               <li className="flex gap-4">
                 <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M21 12a9 9 0 1 1-6.219-8.56"/><polyline points="21 3 21 9 15 9"/>
+                    <path d="M21 12a9 9 0 1 1-6.219-8.56" /><polyline points="21 3 21 9 15 9" />
                   </svg>
                 </div>
                 <div>
@@ -164,7 +164,7 @@ export default function About() {
               <li className="flex gap-4">
                 <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
                   </svg>
                 </div>
                 <div>
