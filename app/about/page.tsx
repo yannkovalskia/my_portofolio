@@ -35,7 +35,7 @@ export default function About() {
       <section className="py-10 border-t border-slate-100">
         <ScrollReveal direction="up" delay={0}>
           <h2 className="flex items-center gap-2 text-xl font-bold text-indigo-600">
-            <span></span>Pengalaman
+            <span>📚</span> Pengalaman
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
             Saya memiliki pengalaman membangun sebuang website sistem akademik terpadu,
@@ -182,17 +182,55 @@ export default function About() {
             </h3>
             <div className="mt-6 grid grid-cols-2 gap-3">
               {[
-                { icon: "📖", label: "Membaca Sci-Fi" },
-                { icon: "☕", label: "Kopi Manual Brew" },
-                { icon: "🚲", label: "Bersepeda Sore" },
-                { icon: "📷", label: "Street Photo" },
+                {
+                  label: "Membaca Sci-Fi",
+                  icon: (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="2" y="3" width="20" height="14" rx="2" />
+                      <line x1="8" x2="16" y1="21" y2="21" />
+                      <line x1="12" x2="12" y1="17" y2="21" />
+                    </svg>
+                  ),
+                },
+                {
+                  label: "Kopi Manual Brew",
+                  icon: (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
+                      <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
+                      <line x1="6" x2="6" y1="2" y2="4" />
+                      <line x1="10" x2="10" y1="2" y2="4" />
+                      <line x1="14" x2="14" y1="2" y2="4" />
+                    </svg>
+                  ),
+                },
+                {
+                  label: "Bersepeda Sore",
+                  icon: (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="18.5" cy="17.5" r="3.5" />
+                      <circle cx="5.5" cy="17.5" r="3.5" />
+                      <circle cx="15" cy="5" r="1" />
+                      <path d="M12 17.5V14l-3-3 4-3 2 3h2" />
+                    </svg>
+                  ),
+                },
+                {
+                  label: "Street Photo",
+                  icon: (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
+                      <circle cx="12" cy="13" r="3" />
+                    </svg>
+                  ),
+                },
               ].map((hobby) => (
                 <div
                   key={hobby.label}
-                  className="flex flex-col items-center gap-2 rounded-2xl border border-slate-200 bg-white p-4 text-center shadow-sm"
+                  className="flex flex-col items-center gap-3 rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-600 p-5 text-center shadow-md transition hover:shadow-lg hover:scale-[1.03]"
                 >
-                  <span className="text-2xl">{hobby.icon}</span>
-                  <p className="text-xs font-semibold text-slate-700">{hobby.label}</p>
+                  <span className="text-white">{hobby.icon}</span>
+                  <p className="text-xs font-semibold text-white/90">{hobby.label}</p>
                 </div>
               ))}
             </div>
