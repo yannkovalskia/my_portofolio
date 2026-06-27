@@ -38,8 +38,10 @@ export default function About() {
             <span></span>Pengalaman
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
-            I have no idea what i'm doing, but i'll do my
-            i miss my <span className="font-mono">"print("hello, world)"</span> era.
+            Saya memiliki pengalaman membangun sebuang website sistem akademik terpadu,
+            sistem manajemen keuangan dan sistem kasir modern dengan menggunakan php native dan mysql.
+            Selain itu saya juga sedang mempelajari Framework NextJS yang dimana project portofolio
+            ini dibangun menggunakan Framework tersebut.
           </p>
         </ScrollReveal>
       </section>
