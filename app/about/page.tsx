@@ -26,7 +26,7 @@ export default function About() {
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-500">
             Saya adalah Mahasiswa Informatika semester 4 yang sedang aktif mencari pengalaman sebagai seorang software engineer
             dan data analyst yang berfokus pada membangun website yang dinamis dan modern, Tech stack utama saya saat ini adalah
-            PHP, Python, Next.JS, JavaScript, MySQL, C++ dan Matlab.
+            PHP, Python, Next.JS, JavaScript, MySQL, C++, html/css, matlab.
           </p>
         </ScrollReveal>
       </section>
