@@ -42,7 +42,7 @@ export default function Projects() {
           <div>
             <ScrollReveal direction="up" delay={0}>
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-indigo-600">
-                Selected Projects
+                Project gweh nih bos
               </p>
             </ScrollReveal>
             <ScrollReveal direction="up" delay={80}>
