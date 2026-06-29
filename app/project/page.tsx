@@ -47,7 +47,7 @@ export default function Projects() {
             </ScrollReveal>
             <ScrollReveal direction="up" delay={80}>
               <h1 className="mt-3 text-4xl font-extrabold text-slate-900">
-                A collection of technical challenges and full-stack solutions.
+                Project gabut atau serius ada semua.
               </h1>
             </ScrollReveal>
             <ScrollReveal direction="up" delay={160}>
