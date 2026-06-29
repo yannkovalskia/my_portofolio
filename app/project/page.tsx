@@ -52,8 +52,7 @@ export default function Projects() {
             </ScrollReveal>
             <ScrollReveal direction="up" delay={160}>
               <p className="mt-4 max-w-2xl text-slate-600">
-                Project showcase untuk memperlihatkan kemampuan teknis, arsitektur
-                dan perhatian pada detail.
+                Showcase project project yang pernah gweh buat nih.
               </p>
             </ScrollReveal>
           </div>
