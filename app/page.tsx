@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScrollReveal from "@/app/components/ScrollReveal";
 
 export default function Home() {
@@ -97,24 +98,17 @@ export default function Home() {
           {/* Big featured card */}
           <ScrollReveal direction="left" delay={60}>
             <div className="relative h-72 overflow-hidden rounded-3xl bg-slate-900 shadow-xl md:h-full md:min-h-[340px]">
-              {/* Simulated dark code/tech background */}
-              <div
-                className="absolute inset-0"
-                style={{
-                  background:
-                    "linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%)",
-                }}
-              >
-                {/* Decorative grid lines */}
-                <div
-                  className="absolute inset-0 opacity-10"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(rgba(99,102,241,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,0.5) 1px, transparent 1px)",
-                    backgroundSize: "40px 40px",
-                  }}
-                />
-              </div>
+              {/* Mockup image */}
+              <Image
+                src="/drink_cashier_mockup.png"
+                alt="Drink Cashier - Sistem Manajemen Kasir Modern"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 768px) 100vw, 60vw"
+                priority
+              />
+              {/* Dark gradient overlay for text readability */}
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent" />
               {/* Overlay content */}
               <div className="absolute inset-0 flex flex-col justify-end p-6">
                 <div className="flex gap-2">
