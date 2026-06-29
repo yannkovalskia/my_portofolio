@@ -119,10 +119,10 @@ export default function Home() {
               <div className="absolute inset-0 flex flex-col justify-end p-6">
                 <div className="flex gap-2">
                   <span className="rounded-full bg-indigo-600/80 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
-                    React
+                    PHP Native
                   </span>
                   <span className="rounded-full bg-indigo-600/80 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
-                    Tailwind
+                    MySQL
                   </span>
                 </div>
                 <h3 className="mt-3 text-xl font-bold text-white">E-Commerce Engine</h3>
