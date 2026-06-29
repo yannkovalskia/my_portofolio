@@ -150,9 +150,9 @@ export default function Home() {
                     <line x1="18" x2="18" y1="20" y2="10" /><line x1="12" x2="12" y1="20" y2="4" /><line x1="6" x2="6" y1="20" y2="14" />
                   </svg>
                 </div>
-                <h3 className="text-base font-bold text-slate-900">Analytics Tool</h3>
+                <h3 className="text-base font-bold text-slate-900">Word to PDF</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-500">
-                  Visualisasi data real-time dengan presisi matematis.
+                  Bot telegram untuk convert file word ke pdf.
                 </p>
               </div>
             </ScrollReveal>
