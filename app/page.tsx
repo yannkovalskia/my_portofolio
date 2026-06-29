@@ -127,7 +127,7 @@ export default function Home() {
                 </div>
                 <h3 className="mt-3 text-xl font-bold text-white">Drink-Cashier</h3>
                 <p className="mt-1 text-sm text-slate-300">
-                  Arsitektur modern untuk skala bisnis global.
+                  Sistem Manajemen Kasir Modern.
                 </p>
               </div>
             </div>
