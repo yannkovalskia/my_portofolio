@@ -136,9 +136,9 @@ export default function Home() {
                     <ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5" /><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3" />
                   </svg>
                 </div>
-                <h3 className="text-base font-bold text-slate-900">API Architect</h3>
+                <h3 className="text-base font-bold text-slate-900">MySavings</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-500">
-                  Optimasi database dan manajemen request tinggi.
+                  Website manajemen keuangan pribadi.
                 </p>
               </div>
             </ScrollReveal>
