@@ -35,7 +35,13 @@ export default function About() {
       <section className="py-10 border-t border-slate-100">
         <ScrollReveal direction="up" delay={0}>
           <h2 className="flex items-center gap-2 text-xl font-bold text-indigo-600">
-            <span>📚</span> Pengalaman
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+              <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+              <line x1="12" x2="12" y1="11" y2="13" />
+              <path d="M2 13h20" />
+            </svg>
+            Pengalaman
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
             Saya memiliki pengalaman membangun sebuang website sistem akademik terpadu,
