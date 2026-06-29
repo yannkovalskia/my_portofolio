@@ -81,7 +81,7 @@ export default function Home() {
             <div>
               <h2 className="text-3xl font-extrabold text-slate-900">Featured Work</h2>
               <p className="mt-1.5 text-sm text-slate-500">
-                Project terbaik yang pernah saya buat sejauh ini.
+                Project terbaik gweh.
               </p>
             </div>
             <a
