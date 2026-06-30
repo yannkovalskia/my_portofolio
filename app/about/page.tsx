@@ -93,7 +93,7 @@ export default function About() {
                 Saat ini saya sedang mencari peluang untuk bergabung dengan tim
                 engineering yang dinamis di mana saya dapat berkontribusi pada produk
                 yang berdampak besar. Saya sangat terbuka untuk posisi{" "}
-                <strong className="font-semibold text-slate-800">Junior Web Developer</strong>{" "}
+                <strong className="font-semibold text-slate-800">Web Developer & Data Analyst</strong>{" "}
                 atau{" "}
                 <strong className="font-semibold text-slate-800">Frontend Engineer</strong>{" "}
                 (Remote/Hybrid).
