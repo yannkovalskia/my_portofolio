@@ -145,9 +145,9 @@ export default function About() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-slate-900">Kualitas di Atas Kuantitas</p>
+                  <p className="text-sm font-semibold text-slate-900">Kualitas di Atas kuali</p>
                   <p className="mt-1 text-xs leading-5 text-slate-500">
-                    Lebih baik satu fitur yang sempurna daripada sepuluh yang setengah matang.
+                    kalo bisa besok kenapa harus sekarang?.
                   </p>
                 </div>
               </li>
