@@ -158,9 +158,9 @@ export default function About() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-slate-900">Pembelajaran Seumur Hidup</p>
+                  <p className="text-sm font-semibold text-slate-900">Motivasi</p>
                   <p className="mt-1 text-xs leading-5 text-slate-500">
-                    Industri teknologi berubah cepat, adaptasi adalah kunci utama kesuksesan.
+                    Big money never comes clean.
                   </p>
                 </div>
               </li>
