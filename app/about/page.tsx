@@ -96,7 +96,7 @@ export default function About() {
                 <strong className="font-semibold text-slate-800">Web Developer, Data Analyst</strong>{" "}
                 atau{" "}
                 <strong className="font-semibold text-slate-800">Frontend Engineer</strong>{" "}
-                (Remote/Hybrid).
+                (Remote).
               </p>
               <a
                 href="/contact"
