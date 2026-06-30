@@ -171,9 +171,9 @@ export default function About() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-slate-900">Kolaborasi Radikal</p>
+                  <p className="text-sm font-semibold text-slate-900">Kolaborasi</p>
                   <p className="mt-1 text-xs leading-5 text-slate-500">
-                    Kode terbaik lahir dari diskusi terbuka dan empati antar pengembang.
+                    Komunikasi woi, dikira bisa baca pikiran
                   </p>
                 </div>
               </li>
