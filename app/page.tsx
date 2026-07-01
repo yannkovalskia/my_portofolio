@@ -67,7 +67,7 @@ export default function Home() {
 `}<span className="text-indigo-500">def</span>{" "}
               <span className="text-yellow-600">init_portfolio</span>{"():"}
               {`
-  `}<span className="text-slate-400">{"# Delivering high-quality code with precision"}</span>{`
+  `}<span className="text-slate-400">{"# If it works, Don't touch it!"}</span>{`
   `}<span className="text-indigo-500">return</span>{` developer[`}<span className="text-emerald-600">&quot;passion&quot;</span>{`]`}
             </pre>
           </div>
