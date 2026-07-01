@@ -50,7 +50,7 @@ export default function Home() {
               <span className="h-3 w-3 rounded-full bg-red-400" />
               <span className="h-3 w-3 rounded-full bg-yellow-400" />
               <span className="h-3 w-3 rounded-full bg-green-400" />
-              <span className="ml-3 font-mono text-xs text-slate-400">portfolio.ts</span>
+              <span className="ml-3 font-mono text-xs text-slate-400">portfolio.py</span>
             </div>
             {/* Code body */}
             <pre className="overflow-x-auto px-6 py-5 font-mono text-xs leading-6 text-slate-700">
