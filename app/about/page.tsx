@@ -184,7 +184,7 @@ export default function About() {
           <ScrollReveal direction="right" delay={80}>
             <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.15em] text-slate-400">
               <span className="inline-block h-px w-6 bg-slate-300" />
-              Di Luar Pekerjaan
+              Hobi & Waktu Luang
             </h3>
             <div className="mt-6 grid grid-cols-2 gap-3">
               {[
