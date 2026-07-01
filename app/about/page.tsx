@@ -202,11 +202,8 @@ export default function About() {
                   label: "Fotografi",
                   icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
-                      <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
-                      <line x1="6" x2="6" y1="2" y2="4" />
-                      <line x1="10" x2="10" y1="2" y2="4" />
-                      <line x1="14" x2="14" y1="2" y2="4" />
+                      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
+                      <circle cx="12" cy="13" r="3" />
                     </svg>
                   ),
                 },
@@ -214,10 +211,14 @@ export default function About() {
                   label: "Video Games",
                   icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      <circle cx="18.5" cy="17.5" r="3.5" />
-                      <circle cx="5.5" cy="17.5" r="3.5" />
-                      <circle cx="15" cy="5" r="1" />
-                      <path d="M12 17.5V14l-3-3 4-3 2 3h2" />
+                      <rect x="2" y="6" width="20" height="12" rx="2" />
+                      <line x1="6" x2="6" y1="10" y2="10.01" />
+                      <line x1="6" x2="6" y1="14" y2="14.01" />
+                      <line x1="10" x2="10" y1="12" y2="12.01" />
+                      <circle cx="17" cy="10" r="1" />
+                      <circle cx="19" cy="12" r="1" />
+                      <circle cx="17" cy="14" r="1" />
+                      <circle cx="15" cy="12" r="1" />
                     </svg>
                   ),
                 },
@@ -225,8 +226,11 @@ export default function About() {
                   label: "Kulineran",
                   icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
-                      <circle cx="12" cy="13" r="3" />
+                      <path d="M3 2l3 6v11a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V8l3-6" />
+                      <path d="M3 2h11" />
+                      <path d="M19 2v7a2 2 0 0 1-2 2h-1" />
+                      <path d="M19 2h2v4a2 2 0 0 1-2 2" />
+                      <line x1="19" x2="19" y1="9" y2="21" />
                     </svg>
                   ),
                 },
