@@ -199,7 +199,7 @@ export default function About() {
                   ),
                 },
                 {
-                  label: "Kopi Manual Brew",
+                  label: "Fotografi",
                   icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
