@@ -135,7 +135,7 @@ export default function About() {
           <ScrollReveal direction="left" delay={0}>
             <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.15em] text-slate-400">
               <span className="inline-block h-px w-6 bg-slate-300" />
-              Nilai Profesional
+              My Principles
             </h3>
             <ul className="mt-6 space-y-7">
               <li className="flex gap-4">
@@ -226,11 +226,19 @@ export default function About() {
                   label: "Kulineran",
                   icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M3 2l3 6v11a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V8l3-6" />
-                      <path d="M3 2h11" />
-                      <path d="M19 2v7a2 2 0 0 1-2 2h-1" />
-                      <path d="M19 2h2v4a2 2 0 0 1-2 2" />
-                      <line x1="19" x2="19" y1="9" y2="21" />
+                      {/* Garpu (kiri) */}
+                      <path d="M3 2v6c0 1.1.9 2 2 2h0a2 2 0 0 0 2-2V2" />
+                      <line x1="5" x2="5" y1="10" y2="22" />
+                      <line x1="3" x2="3" y1="2" y2="6" />
+                      <line x1="5" x2="5" y1="2" y2="6" />
+                      <line x1="7" x2="7" y1="2" y2="6" />
+                      {/* Piring (tengah) */}
+                      <circle cx="12" cy="14" r="5" />
+                      <circle cx="12" cy="14" r="2.5" />
+                      {/* Sendok (kanan) */}
+                      <path d="M19 2c0 0 2 0 2 2.5S19 8 19 8" />
+                      <path d="M21 2c0 0-2 0-2 2.5s2 3.5 2 3.5" />
+                      <line x1="20" x2="20" y1="8" y2="22" />
                     </svg>
                   ),
                 },
