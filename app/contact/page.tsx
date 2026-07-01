@@ -99,7 +99,7 @@ export default function Contact() {
             <ScrollReveal direction="up" delay={220}>
               <div className="relative mt-2 h-48 overflow-hidden rounded-2xl">
                 <Image
-                  src="/img.jpeg"
+                  src="/laptop.jpeg"
                   alt="Laptop"
                   fill
                   className="object-cover"
@@ -107,7 +107,7 @@ export default function Contact() {
                 />
                 <div className="absolute inset-0 flex items-end p-4">
                   <span className="rounded-lg bg-slate-900/70 px-3 py-1.5 font-mono text-xs text-green-400 backdrop-blur-sm">
-                    system.status = &quot;ready_for_work&quot;
+                    status = &quot;Locked in&quot;
                   </span>
                 </div>
               </div>
