@@ -189,7 +189,7 @@ export default function About() {
             <div className="mt-6 grid grid-cols-2 gap-3">
               {[
                 {
-                  label: "Membaca Sci-Fi",
+                  label: "Menonton Film & Series",
                   icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                       <rect x="2" y="3" width="20" height="14" rx="2" />
