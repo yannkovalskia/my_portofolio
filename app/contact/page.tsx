@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScrollReveal from "@/app/components/ScrollReveal";
 
 export default function Contact() {
@@ -96,8 +97,14 @@ export default function Contact() {
 
             {/* Laptop Image */}
             <ScrollReveal direction="up" delay={220}>
-              <div className="relative mt-2 overflow-hidden rounded-2xl">
-                <div className="h-48 w-full bg-gradient-to-br from-slate-100 via-slate-200 to-slate-300" />
+              <div className="relative mt-2 h-48 overflow-hidden rounded-2xl">
+                <Image
+                  src="/img.jpeg"
+                  alt="Laptop"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
                 <div className="absolute inset-0 flex items-end p-4">
                   <span className="rounded-lg bg-slate-900/70 px-3 py-1.5 font-mono text-xs text-green-400 backdrop-blur-sm">
                     system.status = &quot;ready_for_work&quot;
