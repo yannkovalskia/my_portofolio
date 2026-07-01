@@ -211,7 +211,7 @@ export default function About() {
                   ),
                 },
                 {
-                  label: "Bersepeda Sore",
+                  label: "Video Games",
                   icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                       <circle cx="18.5" cy="17.5" r="3.5" />
