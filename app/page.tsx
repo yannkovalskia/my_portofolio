@@ -57,9 +57,9 @@ export default function Home() {
               <span className="text-slate-900">developer</span>{" "}
               <span className="text-indigo-500">=</span>{" {"}
               {`
-  `}<span className="text-emerald-600">&quot;name&quot;</span>{`: `}<span className="text-emerald-600">&quot;Junior Dev&quot;</span>{`,
-  `}<span className="text-emerald-600">&quot;passion&quot;</span>{`: `}<span className="text-emerald-600">&quot;Building Digital Solutions&quot;</span>{`,
-  `}<span className="text-emerald-600">&quot;skills&quot;</span>{`: [`}<span className="text-emerald-600">&quot;React&quot;</span>{`, `}<span className="text-emerald-600">&quot;TypeScript&quot;</span>{`, `}<span className="text-emerald-600">&quot;Node.js&quot;</span>{`],
+  `}<span className="text-emerald-600">&quot;name&quot;</span>{`: `}<span className="text-emerald-600">&quot;Rayyan&quot;</span>{`,
+  `}<span className="text-emerald-600">&quot;passion&quot;</span>{`: `}<span className="text-emerald-600">&quot;Junior WebDev & Data Analyst&quot;</span>{`,
+  `}<span className="text-emerald-600">&quot;skills&quot;</span>{`: [`}<span className="text-emerald-600">&quot;Python, PHP, MySQL&quot;</span>{`, `}<span className="text-emerald-600">&quot;TypeScript&quot;</span>{`, `}<span className="text-emerald-600">&quot;Node.js&quot;</span>{`],
   `}<span className="text-emerald-600">&quot;status&quot;</span>{`: `}<span className="text-emerald-600">&quot;Ready to Collaborate&quot;</span>{`
 `}{"}"}
               {`
