@@ -54,22 +54,21 @@ export default function Home() {
             </div>
             {/* Code body */}
             <pre className="overflow-x-auto px-6 py-5 font-mono text-xs leading-6 text-slate-700">
-              <span className="text-indigo-500">const</span>{" "}
               <span className="text-slate-900">developer</span>{" "}
-              <span className="text-indigo-500">=</span> {"{"}
+              <span className="text-indigo-500">=</span>{" {"}
               {`
-  name: `}<span className="text-emerald-600">&quot;Junior Dev&quot;</span>{`,
-  passion: `}<span className="text-emerald-600">&quot;Building Digital Solutions&quot;</span>{`,
-  skills: [`}<span className="text-emerald-600">&quot;React&quot;</span>{`, `}<span className="text-emerald-600">&quot;TypeScript&quot;</span>{`, `}<span className="text-emerald-600">&quot;Node.js&quot;</span>{`],
-  status: `}<span className="text-emerald-600">&quot;Ready to Collaborate&quot;</span>{`
-`}{"}"}{`;
+  `}<span className="text-emerald-600">&quot;name&quot;</span>{`: `}<span className="text-emerald-600">&quot;Junior Dev&quot;</span>{`,
+  `}<span className="text-emerald-600">&quot;passion&quot;</span>{`: `}<span className="text-emerald-600">&quot;Building Digital Solutions&quot;</span>{`,
+  `}<span className="text-emerald-600">&quot;skills&quot;</span>{`: [`}<span className="text-emerald-600">&quot;React&quot;</span>{`, `}<span className="text-emerald-600">&quot;TypeScript&quot;</span>{`, `}<span className="text-emerald-600">&quot;Node.js&quot;</span>{`],
+  `}<span className="text-emerald-600">&quot;status&quot;</span>{`: `}<span className="text-emerald-600">&quot;Ready to Collaborate&quot;</span>{`
+`}{"}"}
+              {`
 
-`}<span className="text-indigo-500">function</span>{" "}
-              <span className="text-yellow-600">initPortfolio</span>{"() {"}
+`}<span className="text-indigo-500">def</span>{" "}
+              <span className="text-yellow-600">init_portfolio</span>{"():"}
               {`
-  `}<span className="text-slate-400">{"// Delivering high-quality code with precision"}</span>{`
-  `}<span className="text-indigo-500">return</span>{` developer.passion;
-}`}
+  `}<span className="text-slate-400">{"# Delivering high-quality code with precision"}</span>{`
+  `}<span className="text-indigo-500">return</span>{` developer[`}<span className="text-emerald-600">&quot;passion&quot;</span>{`]`}
             </pre>
           </div>
         </ScrollReveal>
