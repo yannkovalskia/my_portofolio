@@ -32,17 +32,6 @@ const stacks = [
     ),
   },
   {
-    name: "C++",
-    icon: (
-      <svg viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M9 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-        <path d="M9 9h-3M9 9v3" />
-        <path d="M14 9h3M15.5 7.5v3" />
-        <path d="M19 9h3M20.5 7.5v3" />
-      </svg>
-    ),
-  },
-  {
     name: "MATLAB",
     icon: (
       <svg viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
