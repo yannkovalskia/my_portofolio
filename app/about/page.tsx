@@ -9,7 +9,7 @@ export default function About() {
       <section className="pt-14 pb-10 text-center">
         <ScrollReveal direction="up" delay={0}>
           {/* Profile avatar */}
-          <div className="mx-auto mb-6 h-20 w-20 overflow-hidden rounded-2xl border-2 border-slate-200 shadow-md">
+          <div className="mx-auto mb-6 h-20 w-20 overflow-hidden rounded-2xl border-4 border-indigo-600 shadow-md">
             <Image
               src="/profile.jpg"
               alt="Profile photo"
@@ -114,13 +114,11 @@ export default function About() {
                 <span className="h-3 w-3 rounded-full bg-green-400" />
               </div>
               <pre className="font-mono text-xs leading-6 text-slate-700 whitespace-pre-wrap">
-                {`const status = {
-  lookingFor:
-    "opportunities",
-  availability: "Full-
-  time",
-  relocation: true
-};`}
+                {`status = {
+    "looking_for": "opportunities",
+    "availability": "Full-time",
+    "relocation": True
+}`}
               </pre>
             </div>
           </div>
