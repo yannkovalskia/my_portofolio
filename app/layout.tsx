@@ -64,9 +64,10 @@ function Footer() {
             <p>© 2024 WengDev. If it works, don't touch it.</p>
           </div>
           <div className="flex gap-6 text-xs text-slate-600">
-            <a href="#" className="transition hover:text-slate-900">GitHub</a>
-            <a href="#" className="transition hover:text-slate-900">LinkedIn</a>
-            <a href="#" className="transition hover:text-slate-900">Twitter</a>
+            <a href="https://github.com/yannkovalskia?tab=overview&from=2026-06-01&to=2026-06-29" className="transition hover:text-slate-900">GitHub</a>
+            <a href="https://www.linkedin.com/in/rayyan-3a1846315?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="transition hover:text-slate-900">LinkedIn</a>
+            <a href="https://www.tiktok.com/@ray_yan418" className="transition hover:text-slate-900">TikTok</a>
+            <a href="https://www.instagram.com/du_duruuu?igsh=MXQ1eGd4MDl2bTc0cA==" className="transition hover:text-slate-900">Instagram</a>
           </div>
         </div>
       </div>
