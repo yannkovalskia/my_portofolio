@@ -252,8 +252,7 @@ export default function About() {
             </div>
             {/* Quote */}
             <blockquote className="mt-5 rounded-2xl border border-slate-200 bg-white p-5 text-xs leading-6 text-slate-500 italic shadow-sm">
-              &quot;Saya percaya keseimbangan hidup yang baik akan memicu kreativitas yang
-              lebih tajam saat saya kembali ke depan layar.&quot;
+              &quot;With great power comes great responsibility.&quot;
             </blockquote>
           </ScrollReveal>
 
