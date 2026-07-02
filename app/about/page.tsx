@@ -208,36 +208,25 @@ export default function About() {
                 {
                   label: "Video Games",
                   icon: (
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      <rect x="2" y="6" width="20" height="12" rx="2" />
-                      <line x1="6" x2="6" y1="10" y2="10.01" />
-                      <line x1="6" x2="6" y1="14" y2="14.01" />
-                      <line x1="10" x2="10" y1="12" y2="12.01" />
-                      <circle cx="17" cy="10" r="1" />
-                      <circle cx="19" cy="12" r="1" />
-                      <circle cx="17" cy="14" r="1" />
-                      <circle cx="15" cy="12" r="1" />
-                    </svg>
+                    <Image
+                      src="/controller.svg"
+                      alt="Video Games"
+                      width={24}
+                      height={24}
+                      className="h-6 w-6 invert brightness-0 invert"
+                    />
                   ),
                 },
                 {
                   label: "Kulineran",
                   icon: (
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      {/* Garpu (kiri) */}
-                      <path d="M3 2v6c0 1.1.9 2 2 2h0a2 2 0 0 0 2-2V2" />
-                      <line x1="5" x2="5" y1="10" y2="22" />
-                      <line x1="3" x2="3" y1="2" y2="6" />
-                      <line x1="5" x2="5" y1="2" y2="6" />
-                      <line x1="7" x2="7" y1="2" y2="6" />
-                      {/* Piring (tengah) */}
-                      <circle cx="12" cy="14" r="5" />
-                      <circle cx="12" cy="14" r="2.5" />
-                      {/* Sendok (kanan) */}
-                      <path d="M19 2c0 0 2 0 2 2.5S19 8 19 8" />
-                      <path d="M21 2c0 0-2 0-2 2.5s2 3.5 2 3.5" />
-                      <line x1="20" x2="20" y1="8" y2="22" />
-                    </svg>
+                    <Image
+                      src="/piring.svg"
+                      alt="Kulineran"
+                      width={24}
+                      height={24}
+                      className="h-6 w-6 invert brightness-0 invert"
+                    />
                   ),
                 },
               ].map((hobby) => (

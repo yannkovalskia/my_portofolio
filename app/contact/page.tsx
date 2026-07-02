@@ -176,25 +176,36 @@ export default function Contact() {
 
       {/* ── Bottom Map Banner ───────────────────────── */}
       <ScrollReveal direction="up" delay={0}>
-        <div className="relative mx-6 mb-16 mt-4 overflow-hidden rounded-3xl border border-slate-200 bg-slate-100">
-          {/* Dot grid pattern */}
+        <a
+          href="https://www.google.com/maps/place/Pamekasan,+East+Java/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group block relative mx-6 mb-16 mt-4 overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 transition hover:border-indigo-300 hover:shadow-md"
+        >
+          {/* Background Image */}
           <div
-            className="h-56 w-full"
+            className="h-56 w-full bg-cover bg-center transition-all duration-500 group-hover:scale-105"
             style={{
-              backgroundImage:
-                "radial-gradient(circle, #94a3b8 1px, transparent 1px)",
-              backgroundSize: "24px 24px",
+              backgroundImage: "url('/pamekasan.jpg')",
             }}
           />
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-slate-900/10 transition-colors duration-500 group-hover:bg-slate-900/20" />
           {/* Floating card */}
-          <div className="absolute bottom-6 right-6 w-72 rounded-2xl border border-slate-200 bg-white p-6 shadow-xl">
-            <p className="text-base font-bold text-slate-900">Pamekasan, Jawa Timur</p>
+          <div className="absolute bottom-6 right-6 w-72 rounded-2xl border border-slate-200 bg-white p-6 shadow-xl transition-all group-hover:scale-[1.02] group-hover:border-indigo-200">
+            <div className="flex items-center justify-between">
+              <p className="text-base font-bold text-slate-900">Pamekasan, Jawa Timur</p>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-indigo-600 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="7" x2="17" y1="17" y2="7" />
+                <polyline points="7 7 17 7 17 17" />
+              </svg>
+            </div>
             <p className="mt-2 text-sm leading-6 text-slate-500">
               Currently based here, but open to relocation and fully remote
               positions worldwide.
             </p>
           </div>
-        </div>
+        </a>
       </ScrollReveal>
     </>
   );
