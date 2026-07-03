@@ -112,10 +112,10 @@ export default function Projects() {
                 ⌁
               </div>
               <h2 className="mt-6 text-2xl font-semibold text-slate-900">
-                Start a Project?
+                Minaj inbok ae
               </h2>
               <p className="mt-3 text-slate-600 leading-7">
-                Saya terbuka untuk peluang freelance dan kontribusi open-source.
+                Langsung aja kontak gweh.
               </p>
               <a
                 href="/contact"
