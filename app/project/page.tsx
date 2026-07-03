@@ -2,10 +2,10 @@ import ScrollReveal from "@/app/components/ScrollReveal";
 
 const projects = [
   {
-    title: "Nexus Dashboard",
+    title: "MySavings",
     description:
-      "A real-time monitoring solution for distributed systems with automated incident reporting and performance profiling.",
-    tags: ["React", "Go", "gRPC"],
+      "Aplikasi manajemen keuangan pribadi berbasis web.",
+    tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
   },
   {
     title: "Vault Engine",
