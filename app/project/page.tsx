@@ -8,10 +8,10 @@ const projects = [
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
   },
   {
-    title: "Vault Engine",
+    title: "Drink Cashier",
     description:
-      "Encrypted storage microservice with zero-knowledge architecture and multi-region synchronization capabilities.",
-    tags: ["Rust", "Docker", "Redis"],
+      "Aplikasi kasir untuk usaha minuman dengan sistem manajemen stok.",
+    tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
   },
   {
     title: "Atlas Graph",
