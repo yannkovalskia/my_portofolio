@@ -19,9 +19,9 @@ export default function About() {
             />
           </div>
           <h1 className="text-4xl font-extrabold tracking-tight text-slate-900">
-            Building digital{" "}
-            <span className="text-indigo-600">narratives</span>{" "}
-            with code.
+            With great {" "}
+            <span className="text-indigo-600">power</span>{" "}
+            comes great responsibility.
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-500">
             Saya adalah Mahasiswa Informatika semester 4 yang sedang aktif mencari pengalaman sebagai seorang software engineer
