@@ -36,7 +36,7 @@ const projects = [
   {
     title: "SIAT",
     description:
-      "Sistem Informasi Akademik Terpadu.",
+      "Prototipe Sistem Informasi Akademik Terpadu.",
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
     sourceUrl: "https://github.com/yannkovalskia/SIAT-Terpadu",
     demoUrl: "",
