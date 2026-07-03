@@ -26,10 +26,10 @@ const projects = [
     tags: ["MATLAB"],
   },
   {
-    title: "Pulse Wallet",
+    title: "SIAT",
     description:
-      "Cross-platform decentralized wallet application focusing on user privacy and seamless transaction signing.",
-    tags: ["Flutter", "Solidity", "Node.js"],
+      "Sistem Informasi Akademik Terpadu.",
+    tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
   },
 ];
 
