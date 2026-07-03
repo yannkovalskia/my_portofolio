@@ -14,10 +14,10 @@ const projects = [
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
   },
   {
-    title: "Atlas Graph",
+    title: "WORD to PDF",
     description:
-      "A visual exploration tool for complex social graphs and dependency mapping using D3.js and Neo4j.",
-    tags: ["TypeScript", "D3.js", "Neo4j"],
+      "sebuah bot telegram untuk konversi file word ke pdf.",
+    tags: ["Python"],
   },
   {
     title: "Core Stack",
