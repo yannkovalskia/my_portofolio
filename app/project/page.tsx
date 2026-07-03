@@ -22,7 +22,7 @@ const projects = [
     description:
       "Prototipe pemantau suhu ruangan menggunakan sensor DHT11 dan mengirim datanya lewat bot telegram.",
     tags: ["C++", "Arduino", "Telegram Bot"],
-    sourceUrl: "https://github.com/yannkovalskia/Temperature-Sensor-Ino",
+    sourceUrl: "https://github.com/yannkovalskia/Temperature_Sensor_Ino",
     demoUrl: "",
   },
   {
@@ -142,7 +142,7 @@ export default function Projects() {
           <ScrollReveal direction="up" delay={projects.length * 80}>
             <div className="h-full rounded-[2rem] border-2 border-dashed border-indigo-200 bg-white p-8 text-center shadow-xl">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-indigo-50 text-indigo-700">
-                ⌁
+                <img src="/terminal.svg" alt="Terminal Icon" className="h-8 w-8" />
               </div>
               <h2 className="mt-6 text-2xl font-semibold text-slate-900">
                 Minaj inbok ae
