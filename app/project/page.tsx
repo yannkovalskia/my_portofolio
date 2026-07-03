@@ -20,10 +20,10 @@ const projects = [
     tags: ["Python"],
   },
   {
-    title: "Core Stack",
+    title: "Face Detection",
     description:
-      "An open-source library for rapid prototyping of event-driven architectures with built-in observability.",
-    tags: ["Python", "Kafka", "Prometheus"],
+      "sebuah program matlab untuk mendeteksi wajah.",
+    tags: ["MATLAB"],
   },
   {
     title: "Pulse Wallet",
