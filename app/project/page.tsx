@@ -41,6 +41,14 @@ const projects = [
     sourceUrl: "https://github.com/yannkovalskia/SIAT-Terpadu",
     demoUrl: "",
   },
+  {
+    title: "DOCX2PDF",
+    description:
+      "Konverter dokumen docx ke pdf menggunakan bot telegram dan python.",
+    tags: ["Python", "Telegram Bot"],
+    sourceUrl: "https://github.com/yannkovalskia/Docx2pdf_converter_bot",
+    demoUrl: "",
+  },
 ];
 
 export default function Projects() {
