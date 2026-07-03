@@ -6,30 +6,40 @@ const projects = [
     description:
       "Aplikasi manajemen keuangan pribadi berbasis web.",
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
+    sourceUrl: "https://github.com/yannkovalskia/MySavings",
+    demoUrl: "",
   },
   {
     title: "Drink Cashier",
     description:
       "Aplikasi kasir untuk usaha minuman dengan sistem manajemen stok.",
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
+    sourceUrl: "https://github.com/yannkovalskia/drink-cashier-v4.0",
+    demoUrl: "",
   },
   {
-    title: "WORD to PDF",
+    title: "Sensor Suhu Lingkungan Berbasis IOT",
     description:
-      "sebuah bot telegram untuk konversi file word ke pdf.",
-    tags: ["Python"],
+      "Prototipe alat pemantau suhu ruangan yang menggunakan sensor DHT11 dan dikirim datanya lewat bot telegram",
+    tags: ["C++", "Arduino", "Telegram Bot"],
+    sourceUrl: "https://github.com/yannkovalskia/Temperature-Sensor-Ino",
+    demoUrl: "",
   },
   {
     title: "Face Detection",
     description:
       "sebuah program matlab untuk mendeteksi wajah.",
     tags: ["MATLAB"],
+    sourceUrl: "https://github.com/yannkovalskia/FaceDetection",
+    demoUrl: "",
   },
   {
     title: "SIAT",
     description:
       "Sistem Informasi Akademik Terpadu.",
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
+    sourceUrl: "https://github.com/yannkovalskia/SIAT-Terpadu",
+    demoUrl: "",
   },
 ];
 
@@ -52,7 +62,8 @@ export default function Projects() {
             </ScrollReveal>
             <ScrollReveal direction="up" delay={160}>
               <p className="mt-4 max-w-2xl text-slate-600">
-                Showcase project project yang pernah gweh buat nih.
+                Showcase project project yang pernah gweh buat nih, diliat aja dulu kalo minaj bisa Langsung
+                kontak gweh aja.
               </p>
             </ScrollReveal>
           </div>
@@ -94,12 +105,26 @@ export default function Projects() {
                   ))}
                 </div>
                 <div className="mt-6 flex gap-4 text-sm font-semibold text-indigo-600">
-                  <a href="#" className="hover:text-indigo-800 transition">
-                    Source
-                  </a>
-                  <a href="#" className="hover:text-indigo-800 transition">
-                    Demo
-                  </a>
+                  {project.sourceUrl && (
+                    <a
+                      href={project.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-indigo-800 transition"
+                    >
+                      Source
+                    </a>
+                  )}
+                  {project.demoUrl && (
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-indigo-800 transition"
+                    >
+                      Demo
+                    </a>
+                  )}
                 </div>
               </article>
             </ScrollReveal>
