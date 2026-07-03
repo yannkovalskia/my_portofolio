@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Sensor Suhu Lingkungan Berbasis IOT",
     description:
-      "Prototipe alat pemantau suhu ruangan yang menggunakan sensor DHT11 dan dikirim datanya lewat bot telegram",
+      "Prototipe pemantau suhu ruangan menggunakan sensor DHT11 dan mengirim datanya lewat bot telegram.",
     tags: ["C++", "Arduino", "Telegram Bot"],
     sourceUrl: "https://github.com/yannkovalskia/Temperature-Sensor-Ino",
     demoUrl: "",
