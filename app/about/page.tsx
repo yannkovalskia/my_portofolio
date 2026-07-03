@@ -171,7 +171,7 @@ export default function About() {
                 <div>
                   <p className="text-sm font-semibold text-slate-900">Kolaborasi</p>
                   <p className="mt-1 text-xs leading-5 text-slate-500">
-                    Komunikasi bagus = hasil bagus, komunikasi jelek = hasil jelek.
+                    Monkey talk = good, Monkey silent = bad.
                   </p>
                 </div>
               </li>
