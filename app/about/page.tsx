@@ -143,7 +143,7 @@ export default function About() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-slate-900">Kualitas di Atas kuali</p>
+                  <p className="text-sm font-semibold text-slate-900">Prokariot or Eukariot?</p>
                   <p className="mt-1 text-xs leading-5 text-slate-500">
                     kalo bisa besok kenapa harus sekarang?.
                   </p>
@@ -156,9 +156,9 @@ export default function About() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-slate-900">Motivasi</p>
+                  <p className="text-sm font-semibold text-slate-900">Old man once said</p>
                   <p className="mt-1 text-xs leading-5 text-slate-500">
-                    Big money never comes clean.
+                    &quot;Big money never comes clean.&quot;
                   </p>
                 </div>
               </li>
@@ -241,7 +241,8 @@ export default function About() {
             </div>
             {/* Quote */}
             <blockquote className="mt-5 rounded-2xl border border-slate-200 bg-white p-5 text-xs leading-6 text-slate-500 italic shadow-sm">
-              &quot;With great power comes great responsibility.&quot;
+              &quot;Hanya ketika nyamuk hinggap di testis anda, anda akan menyadari bahwa tidak semua masalah
+              dapat diselesaikan dengan kekerasan.&quot;
             </blockquote>
           </ScrollReveal>
 
