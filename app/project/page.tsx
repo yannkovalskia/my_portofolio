@@ -65,7 +65,7 @@ export default function Projects() {
             </ScrollReveal>
             <ScrollReveal direction="up" delay={80}>
               <h1 className="mt-3 text-4xl font-extrabold text-slate-900">
-                Project gabut atau serius ada semua.
+                Project gabut, serius atau tugas kuliah ada semua.
               </h1>
             </ScrollReveal>
             <ScrollReveal direction="up" delay={160}>
