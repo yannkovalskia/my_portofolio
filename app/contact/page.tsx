@@ -71,7 +71,7 @@ export default function Contact() {
             {/* Digital Footprint */}
             <ScrollReveal direction="up" delay={180}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                Digital Footprint
+                The Amazing Digital Footprint
               </p>
               <div className="mt-3 flex gap-3">
                 <a
