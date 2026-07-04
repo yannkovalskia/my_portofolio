@@ -18,6 +18,13 @@ export default function TechStack() {
       {/* ── Hero ─────────────────────────────────────────── */}
       <section className="mx-auto max-w-3xl px-6 pt-16 pb-12 text-center md:pt-24">
         <ScrollReveal direction="up" delay={0}>
+          <Image
+            src="/tools.svg"
+            alt="Tools Icon"
+            width={48}
+            height={48}
+            className="mx-auto mb-4"
+          />
           <h1 className="text-4xl font-extrabold tracking-tight text-slate-900">
             Tech Stack
           </h1>
