@@ -132,7 +132,7 @@ export default function TechStack() {
                     <label className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400">Name</label>
                     <input
                       className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
-                      placeholder="John Doe"
+                      placeholder=""
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
@@ -140,7 +140,7 @@ export default function TechStack() {
                     <input
                       type="email"
                       className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
-                      placeholder="john@example.com"
+                      placeholder=""
                     />
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function TechStack() {
                   <label className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400">Subject</label>
                   <input
                     className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
-                    placeholder="Project Inquiry"
+                    placeholder=""
                   />
                 </div>
 
@@ -158,7 +158,7 @@ export default function TechStack() {
                   <textarea
                     rows={5}
                     className="resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
-                    placeholder="Let's build something amazing together..."
+                    placeholder="Let's start some great business..."
                   />
                 </div>
 
