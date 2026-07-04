@@ -104,7 +104,7 @@ export default function TechStack() {
               </p>
               <div className="mt-3 flex gap-3">
                 <a
-                  href="#"
+                  href="http://yannkovalskia.vercel.app"
                   className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white shadow-sm transition hover:border-indigo-300 hover:text-indigo-600"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -112,7 +112,7 @@ export default function TechStack() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://wa.me/qr/XOMR3BHHCLFHN1"
                   className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white shadow-sm transition hover:border-indigo-300 hover:text-indigo-600"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
