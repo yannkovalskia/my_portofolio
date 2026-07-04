@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import ScrollReveal from "@/app/components/ScrollReveal";
 
@@ -13,6 +16,21 @@ const stacks = [
 ];
 
 export default function TechStack() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const recipient = "rayyan140108@gmail.com";
+    const mailtoSubject = encodeURIComponent(subject || `Message from ${name}`);
+    const mailtoBody = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    );
+    window.location.href = `mailto:${recipient}?subject=${mailtoSubject}&body=${mailtoBody}`;
+  };
+
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────── */}
@@ -126,13 +144,17 @@ export default function TechStack() {
           {/* Right: form */}
           <ScrollReveal direction="right" delay={100}>
             <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
-              <form className="flex flex-col gap-5">
+              <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div className="flex flex-col gap-1.5">
                     <label className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400">Name</label>
                     <input
                       className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
                       placeholder=""
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      required
+                      suppressHydrationWarning
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
@@ -141,6 +163,10 @@ export default function TechStack() {
                       type="email"
                       className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
                       placeholder=""
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                      suppressHydrationWarning
                     />
                   </div>
                 </div>
@@ -150,6 +176,10 @@ export default function TechStack() {
                   <input
                     className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
                     placeholder=""
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
+                    required
+                    suppressHydrationWarning
                   />
                 </div>
 
@@ -159,12 +189,17 @@ export default function TechStack() {
                     rows={5}
                     className="resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
                     placeholder="Let's start some great business..."
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    required
+                    suppressHydrationWarning
                   />
                 </div>
 
                 <button
-                  type="button"
+                  type="submit"
                   className="flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 py-3 text-sm font-semibold text-white transition hover:bg-indigo-700"
+                  suppressHydrationWarning
                 >
                   Send Message
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
