@@ -60,7 +60,7 @@ export default function TechStack() {
         </ScrollReveal>
         <ScrollReveal direction="up" delay={80}>
           <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-slate-500">
-            Beberapa Tools yang saya kuasai untuk membangun web modern yang interaktif dan responsif.
+            Beberapa Tools yang saya kuasai untuk membangun pengalaman digital yang interaktif dan responsif.
           </p>
         </ScrollReveal>
       </section>
