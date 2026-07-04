@@ -161,7 +161,7 @@ export default function TechStack() {
                     <label className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400">Name</label>
                     <input
                       className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
-                      placeholder=""
+                      placeholder="Masukan Nama Anda"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       required
@@ -173,7 +173,7 @@ export default function TechStack() {
                     <input
                       type="email"
                       className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
-                      placeholder=""
+                      placeholder="Masukan Email Anda"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
@@ -186,7 +186,7 @@ export default function TechStack() {
                   <label className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400">Subject</label>
                   <input
                     className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
-                    placeholder=""
+                    placeholder="Masukan Subject Anda"
                     value={subject}
                     onChange={(e) => setSubject(e.target.value)}
                     required
