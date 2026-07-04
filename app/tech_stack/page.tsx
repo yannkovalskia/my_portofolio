@@ -97,8 +97,8 @@ export default function TechStack() {
           <ScrollReveal direction="left" delay={0}>
             <h2 className="text-3xl font-extrabold text-slate-900">Get in Touch</h2>
             <p className="mt-3 text-sm leading-7 text-slate-500">
-              I&apos;m currently looking for new opportunities. Whether you have a
-              question or just want to say hi, my inbox is always open.
+              Jika ada hal yang ingin didiskusikan atau sekedar menyapa,
+              email saya selalu terbuka.
             </p>
 
             <div className="mt-8 space-y-5">
@@ -222,7 +222,7 @@ export default function TechStack() {
                 </button>
 
                 {status === "success" && (
-                  <div 
+                  <div
                     style={{ animation: "fadeIn 0.2s ease-out forwards" }}
                     className="rounded-xl bg-slate-50 border border-slate-200 p-4 text-xs text-slate-600"
                   >
