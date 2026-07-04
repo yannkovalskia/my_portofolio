@@ -98,7 +98,7 @@ export default function TechStack() {
             <h2 className="text-3xl font-extrabold text-slate-900">Get in Touch</h2>
             <p className="mt-3 text-sm leading-7 text-slate-500">
               Jika ada hal yang ingin didiskusikan atau sekedar menyapa,
-              email saya selalu terbuka.
+              email dan whatsapp saya selalu terbuka.
             </p>
 
             <div className="mt-8 space-y-5">
