@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Header from "./components/Header";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -18,42 +18,6 @@ export const metadata: Metadata = {
   description: "Portfolio showcasing technical projects and web development expertise.",
 };
 
-function Header() {
-  const navItems = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About Me" },
-    { href: "/project", label: "Projects" },
-    { href: "/tech_stack", label: "Tech Stack" },
-    { href: "/contact", label: "Contact" },
-  ];
-
-  return (
-    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white shadow-sm">
-      <nav className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold text-indigo-600">
-          MyPortofolio
-        </Link>
-        <div className="hidden md:flex items-center gap-8">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
-        <a
-          href="#"
-          className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-700"
-        >
-          Resume
-        </a>
-      </nav>
-    </header>
-  );
-}
 
 function Footer() {
   return (
