@@ -12,7 +12,7 @@ export default function Contact() {
             Let&apos;s Connect
           </p>
           <h1 className="mt-3 max-w-sm text-4xl font-extrabold leading-tight text-slate-900">
-            Have a technical project in mind?
+            Got a project for me?
           </h1>
           <p className="mt-4 max-w-sm text-sm leading-7 text-slate-500">
             Whether you&apos;re looking to build a complex web application or just want
