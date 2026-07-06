@@ -1,22 +1,27 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 
 export default function Header() {
   const pathname = usePathname();
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
 
-  // Close menu whenever route changes
+  // Close menu whenever route changes (after navigation completes)
   useEffect(() => {
     setIsOpen(false);
+    setIsClosing(false);
   }, [pathname]);
 
   // Prevent body scroll when mobile menu is open
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [isOpen]);
 
   const navItems = [
@@ -26,6 +31,30 @@ export default function Header() {
     { href: "/tech_stack", label: "Tech Stack" },
     { href: "/contact", label: "Contact" },
   ];
+
+  /** Close the menu with a slide-out animation, then navigate */
+  function handleMobileNav(href: string) {
+    setIsClosing(true);
+    // Let the close animation play (200ms), then navigate
+    setTimeout(() => {
+      router.push(href);
+    }, 220);
+  }
+
+  function toggleMenu() {
+    if (isOpen) {
+      setIsClosing(true);
+      setTimeout(() => {
+        setIsOpen(false);
+        setIsClosing(false);
+      }, 220);
+    } else {
+      setIsClosing(false);
+      setIsOpen(true);
+    }
+  }
+
+  const menuVisible = isOpen && !isClosing;
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-md shadow-xs">
@@ -83,10 +112,9 @@ export default function Header() {
           id="mobile-menu-toggle"
           aria-label={isOpen ? "Close menu" : "Open menu"}
           aria-expanded={isOpen}
-          onClick={() => setIsOpen((prev) => !prev)}
+          onClick={toggleMenu}
           className="md:hidden flex flex-col justify-center items-center w-10 h-10 rounded-lg hover:bg-slate-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-400"
         >
-          {/* Animated hamburger icon — 3 bars morphing into X */}
           <span
             className={`block h-0.5 w-5 bg-slate-700 rounded-full transition-all duration-300 ${
               isOpen ? "rotate-45 translate-y-[5px]" : ""
@@ -106,55 +134,71 @@ export default function Header() {
       </nav>
 
       {/* ── Mobile dropdown menu ─────────────────────────── */}
-      <div
-        id="mobile-menu"
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
-        }`}
-      >
-        <div className="border-t border-slate-100 bg-white/95 backdrop-blur-md px-6 py-4 flex flex-col gap-1">
-          {navItems.map((item, index) => {
-            const isActive =
-              item.href === "/"
-                ? pathname === "/"
-                : pathname === item.href || pathname.startsWith(item.href + "/");
+      {isOpen && (
+        <div
+          id="mobile-menu"
+          className={`md:hidden transition-all duration-200 ease-in-out ${
+            menuVisible
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 -translate-y-2 pointer-events-none"
+          }`}
+        >
+          <div className="border-t border-slate-100 bg-white/95 backdrop-blur-md px-6 py-4 flex flex-col gap-1">
+            {navItems.map((item, index) => {
+              const isActive =
+                item.href === "/"
+                  ? pathname === "/"
+                  : pathname === item.href || pathname.startsWith(item.href + "/");
 
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                style={{ transitionDelay: isOpen ? `${index * 40}ms` : "0ms" }}
-                className={`flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-semibold transition-all duration-200 ${
-                  isActive
-                    ? "bg-indigo-50 text-indigo-600"
-                    : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
-                }`}
-              >
-                {/* Active indicator dot */}
-                <span
-                  className={`w-1.5 h-1.5 rounded-full flex-shrink-0 transition-all duration-300 ${
-                    isActive ? "bg-indigo-600 scale-100" : "bg-slate-300 scale-75"
+              return (
+                <button
+                  key={item.href}
+                  onClick={() => handleMobileNav(item.href)}
+                  style={{
+                    transitionDelay: menuVisible ? `${index * 35}ms` : "0ms",
+                    opacity: menuVisible ? 1 : 0,
+                    transform: menuVisible ? "translateX(0)" : "translateX(-8px)",
+                    transition: "opacity 0.2s ease, transform 0.2s ease",
+                  }}
+                  className={`flex items-center gap-3 w-full text-left rounded-xl px-4 py-3 text-sm font-semibold transition-colors duration-150 ${
+                    isActive
+                      ? "bg-indigo-50 text-indigo-600"
+                      : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
                   }`}
-                />
-                {item.label}
-                {isActive && (
-                  <span className="ml-auto text-xs font-medium text-indigo-400">●</span>
-                )}
-              </Link>
-            );
-          })}
+                >
+                  <span
+                    className={`w-1.5 h-1.5 rounded-full flex-shrink-0 transition-all duration-300 ${
+                      isActive ? "bg-indigo-600 scale-100" : "bg-slate-300 scale-75"
+                    }`}
+                  />
+                  {item.label}
+                  {isActive && (
+                    <span className="ml-auto text-xs font-medium text-indigo-400">●</span>
+                  )}
+                </button>
+              );
+            })}
 
-          {/* Resume button in mobile menu */}
-          <div className="mt-3 pt-3 border-t border-slate-100">
-            <a
-              href="#"
-              className="flex items-center justify-center gap-2 w-full rounded-xl bg-indigo-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-indigo-700"
+            {/* Resume button */}
+            <div
+              style={{
+                transitionDelay: menuVisible ? `${navItems.length * 35}ms` : "0ms",
+                opacity: menuVisible ? 1 : 0,
+                transform: menuVisible ? "translateX(0)" : "translateX(-8px)",
+                transition: "opacity 0.2s ease, transform 0.2s ease",
+              }}
+              className="mt-3 pt-3 border-t border-slate-100"
             >
-              Resume
-            </a>
+              <a
+                href="#"
+                className="flex items-center justify-center gap-2 w-full rounded-xl bg-indigo-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-indigo-700"
+              >
+                Resume
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </header>
   );
 }

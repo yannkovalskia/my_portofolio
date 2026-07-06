@@ -33,7 +33,7 @@ html {
 }
 
 .page-transition.page-entered {
-  animation: page-enter 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: page-enter 0.40s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 /* ─── Scroll-driven: fade-up on enter viewport ─────── */
