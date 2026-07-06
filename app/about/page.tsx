@@ -145,7 +145,7 @@ export default function About() {
                 <div>
                   <p className="text-sm font-semibold text-slate-900">Prokariot or Eukariot?</p>
                   <p className="mt-1 text-xs leading-5 text-slate-500">
-                    kalo bisa besok kenapa harus sekarang?.
+                    Eukariot.
                   </p>
                 </div>
               </li>
