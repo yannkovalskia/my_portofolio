@@ -15,9 +15,8 @@ export default function Contact() {
             Got a project for me?
           </h1>
           <p className="mt-4 max-w-sm text-sm leading-7 text-slate-500">
-            Whether you&apos;re looking to build a complex web application or just want
-            to chat about clean code and modern architecture, I&apos;m always open to
-            new opportunities.
+            If you have a project in mind, I&apos;d love to hear about it. I&apos;m open to
+            collaborations and ready to help bring your ideas to life.
           </p>
         </ScrollReveal>
 
