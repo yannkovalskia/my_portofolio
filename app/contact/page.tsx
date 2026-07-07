@@ -155,7 +155,7 @@ export default function Contact() {
                 {/* Footer row */}
                 <div className="flex items-center justify-between gap-4 pt-1">
                   <p className="text-xs text-slate-400">
-                    * Guaranteed response within 24 hours.
+                    * Respon dalam 24 Jam.
                   </p>
                   <button
                     type="button"
