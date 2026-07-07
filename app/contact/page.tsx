@@ -200,8 +200,7 @@ export default function Contact() {
               </svg>
             </div>
             <p className="mt-2 text-sm leading-6 text-slate-500">
-              Currently based here, but open to relocation and fully remote
-              positions worldwide.
+              Saat ini berbasis di Pamekasan, Jawa Timur dan Bersedia Untuk Bekerja Secara Remote.
             </p>
           </div>
         </a>
