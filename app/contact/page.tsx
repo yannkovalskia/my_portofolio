@@ -18,7 +18,9 @@ export default function Contact() {
       `&body=${encodeURIComponent(
         `Name: ${name}\nEmail: ${email}\n\n${message}`
       )}`;
-    window.location.href = mailtoLink;
+    const a = document.createElement("a");
+    a.href = mailtoLink;
+    a.click();
   }
 
   return (
