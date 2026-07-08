@@ -133,7 +133,7 @@ export default function About() {
           <ScrollReveal direction="left" delay={0}>
             <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.15em] text-slate-400">
               <span className="inline-block h-px w-6 bg-slate-300" />
-              My Principles
+              Quotes
             </h3>
             <ul className="mt-6 space-y-7">
               <li className="flex gap-4">
