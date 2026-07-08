@@ -241,8 +241,8 @@ export default function About() {
             </div>
             {/* Quote */}
             <blockquote className="mt-5 rounded-2xl border border-slate-200 bg-white p-5 text-xs leading-6 text-slate-500 italic shadow-sm">
-              &quot;Surviving is winning, Franklin, everything else is bullshit
-              whatever it takes kid, SURVIVE.&quot;
+              &quot;Surviving is winning, Franklin, everything else is bullshit.
+              Whatever it takes kid, SURVIVE.&quot;
               <footer className="mt-2 text-xs font-medium text-slate-400">
                 - Michael De Santa ( GTA V)
               </footer>
