@@ -241,8 +241,11 @@ export default function About() {
             </div>
             {/* Quote */}
             <blockquote className="mt-5 rounded-2xl border border-slate-200 bg-white p-5 text-xs leading-6 text-slate-500 italic shadow-sm">
-              &quot;Hanya ketika nyamuk hinggap di testis anda, anda akan menyadari bahwa tidak semua masalah
-              dapat diselesaikan dengan kekerasan.&quot;
+              &quot;Surviving is winning, Franklin, everything else is bullshit
+              whatever it takes kid, SURVIVE.&quot;
+              <footer className="mt-2 text-xs font-medium text-slate-400">
+                - Michael De Santa ( GTA V)
+              </footer>
             </blockquote>
           </ScrollReveal>
 
