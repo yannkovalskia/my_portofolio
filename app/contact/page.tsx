@@ -1,7 +1,26 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 import ScrollReveal from "@/app/components/ScrollReveal";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  function handleSubmit() {
+    const to = "rayyan140108@gmail.com"; // ← ganti dengan email kamu
+    const mailtoLink =
+      `mailto:${to}` +
+      `?subject=${encodeURIComponent(subject || "(No Subject)")}` +
+      `&body=${encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\n\n${message}`
+      )}`;
+    window.location.href = mailtoLink;
+  }
+
   return (
     <>
       <div className="mx-auto max-w-5xl px-6 py-12 md:py-20">
@@ -116,13 +135,15 @@ export default function Contact() {
           {/* ── Right: Form ───────────────────────────── */}
           <ScrollReveal direction="right" delay={100}>
             <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
-              <form className="flex flex-col gap-4">
+              <form className="flex flex-col gap-4" onSubmit={(e) => { e.preventDefault(); handleSubmit(); }}>
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div className="flex flex-col gap-1.5">
                     <label className="text-xs font-semibold text-slate-500">Full Name</label>
                     <input
                       className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
                       placeholder="Jane Doe"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
@@ -131,6 +152,8 @@ export default function Contact() {
                       type="email"
                       className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
                       placeholder="jane@example.com"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                 </div>
@@ -140,6 +163,8 @@ export default function Contact() {
                   <input
                     className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
                     placeholder="Project Inquiry / Collaboration"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
                   />
                 </div>
 
@@ -149,6 +174,8 @@ export default function Contact() {
                     rows={7}
                     className="resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 transition"
                     placeholder="Tell me about your project or just say hi..."
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   />
                 </div>
 
@@ -158,7 +185,7 @@ export default function Contact() {
                     * Respon dalam 24 Jam.
                   </p>
                   <button
-                    type="button"
+                    type="submit"
                     className="flex shrink-0 items-center gap-2 rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-700"
                   >
                     Send Message
