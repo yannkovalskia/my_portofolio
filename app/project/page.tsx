@@ -78,7 +78,7 @@ export default function Projects() {
 
           <ScrollReveal direction="right" delay={200}>
             <div className="flex flex-wrap gap-3">
-              {["All Systems", "Frontend", "Backend", "Fullstack"].map((label) => (
+              {["All Systems", "Frontend", "Backend", "Fullstack", "IoT"].map((label) => (
                 <button
                   key={label}
                   className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100"
