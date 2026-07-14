@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScrollReveal from "@/app/components/ScrollReveal";
 
 const projects = [
@@ -6,6 +7,7 @@ const projects = [
     description:
       "Aplikasi manajemen keuangan pribadi berbasis web.",
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
+    image: "/project/mysavings.png",
     sourceUrl: "https://github.com/yannkovalskia/MySavings",
     demoUrl: "",
   },
@@ -14,6 +16,7 @@ const projects = [
     description:
       "Aplikasi kasir untuk usaha minuman dengan sistem manajemen stok.",
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
+    image: "/project/drink_cashier_mockup.png",
     sourceUrl: "https://github.com/yannkovalskia/drink-cashier-v4.0",
     demoUrl: "",
   },
@@ -95,7 +98,18 @@ export default function Projects() {
           {projects.map((project, i) => (
             <ScrollReveal key={project.title} direction="up" delay={i * 80}>
               <article className="h-full rounded-[2rem] border border-slate-200 bg-white p-6 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
-                <div className="h-44 rounded-3xl bg-slate-100" />
+                {"image" in project && project.image ? (
+                  <div className="relative h-44 overflow-hidden rounded-3xl">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className="h-44 rounded-3xl bg-slate-100" />
+                )}
                 <h2 className="mt-6 text-2xl font-semibold text-slate-900">
                   {project.title}
                 </h2>
