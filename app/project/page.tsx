@@ -43,6 +43,7 @@ const projects = [
     description:
       "Prototipe Sistem Informasi Akademik Terpadu.",
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
+    image: "/project/siat_terpadu.png",
     sourceUrl: "https://github.com/yannkovalskia/SIAT-Terpadu",
     demoUrl: "",
   },
