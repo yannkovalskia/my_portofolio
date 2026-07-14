@@ -25,6 +25,7 @@ const projects = [
     description:
       "Prototipe pemantau suhu ruangan menggunakan sensor DHT11 dan mengirim datanya lewat bot telegram.",
     tags: ["C++", "Arduino", "Telegram Bot"],
+    image: "/project/sensor_suhu.jpeg",
     sourceUrl: "https://github.com/yannkovalskia/Temperature_Sensor_Ino",
     demoUrl: "",
   },
