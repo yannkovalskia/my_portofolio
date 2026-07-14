@@ -34,6 +34,7 @@ const projects = [
     description:
       "sebuah program matlab untuk mendeteksi wajah.",
     tags: ["MATLAB"],
+    image: "/project/face_detection.png",
     sourceUrl: "https://github.com/yannkovalskia/FaceDetection",
     demoUrl: "",
   },
