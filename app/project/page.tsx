@@ -52,6 +52,7 @@ const projects = [
     description:
       "Konverter dokumen docx ke pdf menggunakan bot telegram dan python.",
     tags: ["Python", "Telegram Bot"],
+    image: "/project/docx2pdf.jpg",
     sourceUrl: "https://github.com/yannkovalskia/Docx2pdf_converter_bot",
     demoUrl: "",
   },
