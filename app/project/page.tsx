@@ -56,6 +56,15 @@ const projects = [
     sourceUrl: "https://github.com/yannkovalskia/Docx2pdf_converter_bot",
     demoUrl: "",
   },
+  {
+    title: "Kalkulator Premium",
+    description:
+      "Kalkulator Premium adalah aplikasi kalkulator berbasis web.",
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
+    image: "/project/kalkulator.png",
+    sourceUrl: "https://github.com/yannkovalskia/MyCalculator",
+    demoUrl: "",
+  }
 ];
 
 export default function Projects() {
