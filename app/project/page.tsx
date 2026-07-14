@@ -59,7 +59,7 @@ const projects = [
   {
     title: "Kalkulator Premium",
     description:
-      "Kalkulator Premium adalah aplikasi kalkulator berbasis web.",
+      "Kalkulator Kapitalis.",
     tags: ["HTML", "CSS", "JAVASCRIPT"],
     image: "/project/kalkulator.png",
     sourceUrl: "https://github.com/yannkovalskia/MyCalculator",
