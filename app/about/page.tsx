@@ -241,10 +241,10 @@ export default function About() {
             </div>
             {/* Quote */}
             <blockquote className="mt-5 rounded-2xl border border-slate-200 bg-white p-5 text-xs leading-6 text-slate-500 italic shadow-sm">
-              &quot;Surviving is winning, Franklin, everything else is bullshit.
-              Whatever it takes kid, SURVIVE.&quot;
+              &quot;I could save a thousand lives,
+              But i can't even stay by your side.&quot;
               <footer className="mt-2 text-xs font-medium text-slate-400">
-                - Michael De Santa ( GTA V)
+                - I Miss You Every Brand New Day (From Spiderman Brand New Day)
               </footer>
             </blockquote>
           </ScrollReveal>
