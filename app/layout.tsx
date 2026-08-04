@@ -25,7 +25,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <div className="text-xs text-slate-600">
-            <p>© 2024 WengDev. If it works, don't touch it.</p>
+            <p>© 2026 WengDev. If it works, don't touch it.</p>
           </div>
           <div className="flex gap-6 text-xs text-slate-600">
             <a href="https://github.com/yannkovalskia?tab=overview&from=2026-06-01&to=2026-06-29" className="transition hover:text-slate-900">GitHub</a>
