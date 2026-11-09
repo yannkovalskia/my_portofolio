@@ -8,20 +8,20 @@ export default function Home() {
       <section className="mx-auto max-w-2xl px-6 pt-16 pb-4 text-center md:pt-24">
         <ScrollReveal direction="up" delay={0}>
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-indigo-600">
-            Software Engineer
+            Mahasiswa IT | Business Intelligence & Data Analytics
           </p>
         </ScrollReveal>
 
         <ScrollReveal direction="up" delay={80}>
           <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 md:text-5xl">
-            If it works,{" "}
-            <span className="text-indigo-600">don&apos;t touch it</span>.
+            Mengolah data menjadi{" "}
+            <span className="text-indigo-600">insight yang bermakna.</span>
           </h1>
         </ScrollReveal>
 
         <ScrollReveal direction="up" delay={160}>
           <p className="mx-auto mt-5 max-w-md text-sm leading-7 text-slate-500">
-            Saya Mahasiswa Informatika Semester 4 yang sedang aktif mencari pengalaman baru, dan juga saya merupakan member grup fesnuk Ingin menjadi programmer handal namun enggan ngoding sejak 2023.
+            Saya mahasiswa Teknologi Informasi dengan minat pada Business Intelligence (BI) dan analisis data. Saya memiliki pengalaman sebagai Data Analyst melalui program MISB dan tertarik mengolah data menjadi insight yang mendukung pengambilan keputusan.
           </p>
         </ScrollReveal>
 
@@ -58,8 +58,8 @@ export default function Home() {
               <span className="text-indigo-500">=</span>{" {"}
               {`
   `}<span className="text-emerald-600">&quot;name&quot;</span>{`: `}<span className="text-emerald-600">&quot;Rayyan&quot;</span>{`,
-  `}<span className="text-emerald-600">&quot;passion&quot;</span>{`: `}<span className="text-emerald-600">&quot;Junior WebDev & Data Analyst&quot;</span>{`,
-  `}<span className="text-emerald-600">&quot;skills&quot;</span>{`: [`}<span className="text-emerald-600">&quot;Python, PHP, MySQL&quot;</span>{`, `}<span className="text-emerald-600">&quot;TypeScript&quot;</span>{`, `}<span className="text-emerald-600">&quot;Node.js&quot;</span>{`],
+  `}<span className="text-emerald-600">&quot;passion&quot;</span>{`: `}<span className="text-emerald-600">&quot;Business Intelligence & Data Analytics&quot;</span>{`,
+  `}<span className="text-emerald-600">&quot;skills&quot;</span>{`: [`}<span className="text-emerald-600">&quot;Python, PHP, MySQL&quot;</span>{`, `}<span className="text-emerald-600">&quot;TypeScript&quot;</span>{`, `}<span className="text-emerald-600">&quot;Next.js&quot;</span>{`, `}<span className="text-emerald-600">&quot;Tableau&quot;</span>{`, `}<span className="text-emerald-600">&quot;Data Studio&quot;</span>{`],
   `}<span className="text-emerald-600">&quot;status&quot;</span>{`: `}<span className="text-emerald-600">&quot;I am Ready&quot;</span>{`
 `}{"}"}
               {`
@@ -81,7 +81,7 @@ export default function Home() {
             <div>
               <h2 className="text-3xl font-extrabold text-slate-900">Featured Work</h2>
               <p className="mt-1.5 text-sm text-slate-500">
-                Project terbaik gweh.
+                Project terbaik saya.
               </p>
             </div>
             <a

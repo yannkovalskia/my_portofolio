@@ -19,14 +19,12 @@ export default function About() {
             />
           </div>
           <h1 className="text-4xl font-extrabold tracking-tight text-slate-900">
-            With great {" "}
-            <span className="text-indigo-600">power</span>{" "}
-            comes great responsibility.
+            Teknologi, data, dan{" "}
+            <span className="text-indigo-600">insight</span>{" "}
+            untuk keputusan yang lebih baik.
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-500">
-            Saya adalah Mahasiswa Informatika semester 4 yang sedang aktif mencari pengalaman sebagai seorang software engineer
-            dan data analyst yang berfokus pada membangun website yang dinamis dan modern, Tech stack utama saya saat ini adalah
-            PHP, Python, Next.JS, JavaScript, MySQL, C++, HTML/CSS, Matlab.
+            Saya adalah mahasiswa Teknologi Informasi dengan minat pada Business Intelligence (BI) dan analisis data. Melalui program MISB, saya memperoleh pengalaman sebagai Data Analyst. Saya tertarik mengolah data menjadi insight yang relevan untuk mendukung pengambilan keputusan.
           </p>
         </ScrollReveal>
       </section>
@@ -44,10 +42,7 @@ export default function About() {
             Pengalaman
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
-            Saya memiliki pengalaman membangun sebuang website sistem akademik terpadu,
-            sistem manajemen keuangan dan sistem kasir modern dengan menggunakan php native dan mysql.
-            Selain itu saya juga sedang mempelajari Framework NextJS yang dimana project portofolio
-            ini dibangun menggunakan Framework tersebut.
+            Saya memiliki pengalaman mengembangkan aplikasi web, termasuk sistem akademik terpadu, manajemen keuangan, dan kasir. Saya juga memperoleh pengalaman sebagai Data Analyst melalui program MSIB, yang memperkuat ketertarikan saya pada analisis data dan penyampaian insight untuk mendukung pengambilan keputusan.
           </p>
         </ScrollReveal>
       </section>
@@ -59,14 +54,12 @@ export default function About() {
             <span className="font-mono text-lg">&lt;/&gt;</span> Minat Khusus
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
-            Fokus utama saya saat ini adalah{" "}
-            <strong className="font-semibold text-slate-800">Web Development & Data Analyst</strong>{" "}
-            dimana saya berencana untuk memilih peminatan Business Intelligence (BI) pada studi saya.
-            Akan tetapi tidak menutup kemungkinan bagi saya untuk terus mengeksplorasi skill lain sampai
-            saya benar-benar tahu minat dan bakat utama saya di bidang ini.
+            Ketertarikan utama saya adalah{" "}
+            <strong className="font-semibold text-slate-800">Business Intelligence (BI) dan Data Analytics.</strong>{" "}
+            Saya ingin terus mengembangkan kemampuan dalam menganalisis data dan menyampaikan insight secara jelas. Pengembangan web juga menjadi bekal pendukung untuk membangun solusi digital yang bermanfaat.
           </p>
           <div className="mt-5 flex flex-wrap gap-2">
-            {["React & Next.js", "TailwindCSS", "TypeScript", "Node.js", "UI/UX Design"].map(
+            {["Business Intelligence", "Data Analytics", "Python", "SQL & MySQL", "Tableau", "Google Data Studio"].map(
               (tech) => (
                 <span
                   key={tech}
@@ -90,13 +83,9 @@ export default function About() {
                 Apa yang saya cari?
               </h3>
               <p className="mt-4 text-sm leading-7 text-slate-600">
-                Saat ini saya sedang mencari peluang untuk bergabung dengan tim
-                engineering yang dinamis di mana saya dapat berkontribusi pada produk
-                yang berdampak besar. Saya sangat terbuka untuk posisi{" "}
-                <strong className="font-semibold text-slate-800">Web Developer, Data Analyst</strong>{" "}
-                atau{" "}
-                <strong className="font-semibold text-slate-800">Frontend Engineer</strong>{" "}
-                (Remote).
+                Saya terbuka pada peluang untuk berkontribusi dalam proyek atau tim yang memanfaatkan data untuk mendukung keputusan bisnis. Minat utama saya adalah bidang{" "}
+                <strong className="font-semibold text-slate-800">Business Intelligence dan Data Analytics,</strong>
+                {" "}serta pengembangan solusi digital yang relevan.
               </p>
               <a
                 href="/contact"
@@ -242,7 +231,7 @@ export default function About() {
             {/* Quote */}
             <blockquote className="mt-5 rounded-2xl border border-slate-200 bg-white p-5 text-xs leading-6 text-slate-500 italic shadow-sm">
               &quot;I could save a thousand lives,
-              But i can't even stay by your side.&quot;
+              But i can&apos;t even stay by your side.&quot;
               <footer className="mt-2 text-xs font-medium text-slate-400">
                 - I Miss You Every Brand New Day (From Spiderman Brand New Day)
               </footer>

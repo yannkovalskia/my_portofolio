@@ -7,6 +7,9 @@ import ScrollReveal from "@/app/components/ScrollReveal";
 const stacks = [
   { name: "JavaScript", src: "/js.svg" },
   { name: "Python", src: "/python.svg" },
+  { name: "Tableau", src: "/tableau.svg" },
+  { name: "Data Studio", src: "/data-studio.svg" },
+  { name: "Google Colab", src: "/google-colab.svg" },
   { name: "PHP", src: "/php.svg" },
   { name: "MATLAB", src: "/matlab.svg" },
   { name: "MySQL", src: "/mysql.svg" },
