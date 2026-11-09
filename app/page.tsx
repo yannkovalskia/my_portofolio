@@ -21,7 +21,7 @@ export default function Home() {
 
         <ScrollReveal direction="up" delay={160}>
           <p className="mx-auto mt-5 max-w-md text-sm leading-7 text-slate-500">
-            Saya mahasiswa Teknologi Informasi dengan minat pada Business Intelligence (BI) dan analisis data. Saya memiliki pengalaman sebagai Data Analyst melalui program MISB dan tertarik mengolah data menjadi insight yang mendukung pengambilan keputusan.
+            Sebagai mahasiswa Teknologi Informasi dengan fokus pada Business Intelligence (BI) dan analisis data, saya memiliki pengalaman sebagai Data Analyst melalui program MSIB. Saya tertarik menerjemahkan data menjadi insight yang jelas dan bernilai untuk mendukung pengambilan keputusan.
           </p>
         </ScrollReveal>
 

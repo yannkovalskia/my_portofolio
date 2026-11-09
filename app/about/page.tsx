@@ -24,7 +24,7 @@ export default function About() {
             untuk keputusan yang lebih baik.
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-500">
-            Saya adalah mahasiswa Teknologi Informasi dengan minat pada Business Intelligence (BI) dan analisis data. Melalui program MISB, saya memperoleh pengalaman sebagai Data Analyst. Saya tertarik mengolah data menjadi insight yang relevan untuk mendukung pengambilan keputusan.
+            Sebagai mahasiswa Teknologi Informasi, saya berfokus pada Business Intelligence (BI) dan analisis data. Pengalaman sebagai Data Analyst melalui program MSIB memperkuat minat saya dalam mengolah data menjadi insight yang relevan untuk mendukung pengambilan keputusan.
           </p>
         </ScrollReveal>
       </section>
@@ -42,7 +42,7 @@ export default function About() {
             Pengalaman
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
-            Saya memiliki pengalaman mengembangkan aplikasi web, termasuk sistem akademik terpadu, manajemen keuangan, dan kasir. Saya juga memperoleh pengalaman sebagai Data Analyst melalui program MSIB, yang memperkuat ketertarikan saya pada analisis data dan penyampaian insight untuk mendukung pengambilan keputusan.
+            Pengalaman saya mencakup pengembangan aplikasi web, termasuk sistem akademik terpadu, manajemen keuangan, dan kasir. Saya juga berpengalaman sebagai Data Analyst dalam program MSIB, dengan fokus pada analisis data dan penyampaian insight untuk mendukung pengambilan keputusan.
           </p>
         </ScrollReveal>
       </section>
