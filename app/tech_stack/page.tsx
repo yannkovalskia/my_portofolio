@@ -146,7 +146,13 @@ export default function TechStack() {
                   href="https://wa.me/qr/XOMR3BHHCLFHN1"
                   className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white shadow-sm transition hover:border-indigo-300 hover:text-indigo-600"
                 >
-                  <img src="/whatsapp.svg" alt="WhatsApp" className="h-6 w-6" />
+                  <Image
+                    src="/whatsapp.svg"
+                    alt="WhatsApp"
+                    width={24}
+                    height={24}
+                    className="h-6 w-6"
+                  />
                 </a>
               </div>
             </div>
